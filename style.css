@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Mouse+Memoirs&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Mouse+Memoirs&family=Roboto:ital@1&family=Rubik+Dirt&family=Rubik+Marker+Hatch&family=Source+Sans+Pro:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Mouse+Memoirs&family=Roboto+Mono:wght@300&family=Roboto:ital@1&family=Rubik+Dirt&family=Rubik+Marker+Hatch&family=Source+Sans+Pro:wght@400;600&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Kanit:wght@300&family=Mouse+Memoirs&family=Roboto+Mono:wght@300&family=Roboto:ital@1&family=Rubik+Dirt&family=Rubik+Marker+Hatch&family=Source+Sans+Pro:wght@400;600&family=Ubuntu&display=swap');
+
+
+body{
+    background-image: url("https://img.lovepik.com/background/20211022/large/lovepik-science-and-technology-background-image_500609616.jpg");
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+color: snow;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.sidebar{
+    position: absolute;
+    /* background-color:red ; */
+    background-color: rgb(215, 212, 212);
+    /* font-family: 'Edu TAS Beginner', cursive; */
+    font-family: 'Kanit', sans-serif;
+    /* width: 434px; */
+    height: 145vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 30px;
+
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 85vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /* background-color: palegreen; */
+    
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif
+    
+}
+
+.hello{
+    font-size: 5em;
+}
+
+.name{
+    font-size: 4.5em;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.about{
+    font-size: 4em;
+}
+
+.moreabout{
+    margin-top: 20px;
+    font-size: 3 em;
+}
+.buttons{
+    margin-top: 30px;
+    font-size: 15px;
+}
+.btn{
+    padding: 10px 14px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin: 3px 10px;
+    cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 13px;
+    padding: 8px 12px;
+    margin: 16px 0px;
+}
+
+.btn:hover{
+    color: aquamarine;
+    background-color: black;
+}
+
+.devPic img{
+    height: 58vh;
+    
+   
+}
+
+.devPic2 img{
+    height: 58vh;
+    width: 88vh;
+}
+
+
+/*   CONTACT FORM STYLING    */
+
+
+.mb-3{
+    font-size: 18px;
+}
+
+.contactform{
+    
+    padding: 0 35px;
+    /* padding-top: 100px; */
+    /* font-family: 'Edu TAS Beginner', sans-serif; */
+    font-family: 'Kanit', sans-serif;
+    margin:88px;
+}
+
+.contactform h1{
+    font-family: 'Ubuntu', sans-serif;
+/* padding: 12px 0; */
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    /* width: 26vw; */
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+.contactform form{
+    margin: 0 50px;
+}
+
+
+#emailHelp{
+    font-size: 14px;
+    color: greenyellow;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+
+/* BLOG STYLING */
+
+/* .blogItem{
+    margin: 15px;
+    font-family: 'Kanit', sans-serif;
+} */
+
+
+
+ h1{
+    font-family: 'Ubuntu', sans-serif;
+        font-size: 40px;
+}
+
+p{
+    font-family: 'Kanit', sans-serif;
+}
+
+.intro{
+    margin: 0 88px;
+}
+
+.intro h2{
+    font-family: 'Kanit', sans-serif;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.intro p{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 12px;
+}
+
+.skillContainer{
+    padding: 12px;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.skill{
+   
+    height:7px;
+    margin: 4.5px;
+}
+
+.sk{
+    background-color: black;
+    width: 320px;
+    margin: 8.3px;
+    padding: 0px;
+    
+}
+
+.hun{
+    width: 310px;
+    background-color: green;
+}
+
+.nin{
+    width: 280px;
+    background-color: green;
+}
+
+.e8{
+    width: 250px;
+    background-color: green;
+}
+
+.sev{
+    width: 230px;
+    background-color: yellow;
+}
+
+.fif{
+    width: 185px;
+    background-color: yellow;
+}
+
+.thir{
+    width: 50px;
+    background-color: red;
+}
+
+.project{
+    margin-left: 10px;
+}
+.game{
+    display: flex;
+    flex-direction: row;
+}
+
+h3{
+    font-size: 20px;
+}
+.bttn{
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: khaki;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+
+.link{
+    text-decoration: none;
+    color: greenyellow;
+    font-size: 20px;
+}
+
+/* SERVICES */
+
+.ser{
+    font-size: 40px;
+    margin: 20px;
+    
+}
+
+.service{
+    color: khaki;
+    font-size: 30px;
+    margin: 30px
+}
+
+.l{
+    margin: 10px;
+    padding: 10px;
+}
+
+  .sidebarGo{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cross{
+    margin-left: 145px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1200px){
+    *{
+        /* background-color: rgb(154, 73, 73); */
+    }
+
+    .buttons{
+        font-size: 6px;
+    }
+
+    .devInfo{
+        font-size: 10px;
+    }
+    .devPic{
+        /* display: none; */
+        width: 20px;
+    }
+
+    .devPic2{
+         display: none; 
+        width: 20vh;
+    }
+    .intro, .contactform{
+        margin:  50px 8px;
+    } 
+    .ser{
+        font-size: 28px;
+    }
+     .service{
+        font-size: 24px;
+    }
+}
